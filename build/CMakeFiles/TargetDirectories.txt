@@ -1,0 +1,3 @@
+/home/davidx/Personal_Projects/Ray-Tracer/build/CMakeFiles/OLAS.dir
+/home/davidx/Personal_Projects/Ray-Tracer/build/CMakeFiles/edit_cache.dir
+/home/davidx/Personal_Projects/Ray-Tracer/build/CMakeFiles/rebuild_cache.dir
