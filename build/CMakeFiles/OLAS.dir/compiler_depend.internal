@@ -3,9 +3,11 @@
 
 CMakeFiles/OLAS.dir/main.cpp.o
  /home/davidx/Personal_Projects/Ray-Tracer/main.cpp
+ /home/davidx/Personal_Projects/Ray-Tracer/camera.h
  /home/davidx/Personal_Projects/Ray-Tracer/color.h
  /home/davidx/Personal_Projects/Ray-Tracer/hittable.h
  /home/davidx/Personal_Projects/Ray-Tracer/hittable_list.h
+ /home/davidx/Personal_Projects/Ray-Tracer/interval.h
  /home/davidx/Personal_Projects/Ray-Tracer/ray.h
  /home/davidx/Personal_Projects/Ray-Tracer/rtweekend.h
  /home/davidx/Personal_Projects/Ray-Tracer/sphere.h
