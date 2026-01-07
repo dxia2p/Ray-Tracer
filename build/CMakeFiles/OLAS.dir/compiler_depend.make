@@ -7,6 +7,7 @@ CMakeFiles/OLAS.dir/main.cpp.o: /home/davidx/Personal_Projects/Ray-Tracer/main.c
   /home/davidx/Personal_Projects/Ray-Tracer/hittable.h \
   /home/davidx/Personal_Projects/Ray-Tracer/hittable_list.h \
   /home/davidx/Personal_Projects/Ray-Tracer/interval.h \
+  /home/davidx/Personal_Projects/Ray-Tracer/material.h \
   /home/davidx/Personal_Projects/Ray-Tracer/ray.h \
   /home/davidx/Personal_Projects/Ray-Tracer/rtweekend.h \
   /home/davidx/Personal_Projects/Ray-Tracer/sphere.h \
@@ -376,13 +377,15 @@ CMakeFiles/OLAS.dir/main.cpp.o: /home/davidx/Personal_Projects/Ray-Tracer/main.c
 
 /usr/include/c++/13/tr1/legendre_function.tcc:
 
+/usr/include/x86_64-linux-gnu/sys/single_threaded.h:
+
+/usr/include/c++/13/type_traits:
+
+/usr/include/c++/13/tr1/hypergeometric.tcc:
+
 /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
 
 /usr/include/c++/13/bits/refwrap.h:
-
-/usr/include/c++/13/debug/debug.h:
-
-/usr/include/c++/13/stdexcept:
 
 /usr/include/c++/13/bits/ostream_insert.h:
 
@@ -411,12 +414,6 @@ CMakeFiles/OLAS.dir/main.cpp.o: /home/davidx/Personal_Projects/Ray-Tracer/main.c
 /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h:
 
 /usr/include/c++/13/bits/ios_base.h:
-
-/usr/include/x86_64-linux-gnu/sys/single_threaded.h:
-
-/usr/include/c++/13/type_traits:
-
-/usr/include/c++/13/tr1/hypergeometric.tcc:
 
 /usr/include/errno.h:
 
@@ -458,16 +455,6 @@ CMakeFiles/OLAS.dir/main.cpp.o: /home/davidx/Personal_Projects/Ray-Tracer/main.c
 
 /usr/include/c++/13/bits/cpp_type_traits.h:
 
-/usr/include/c++/13/cwctype:
-
-/usr/include/c++/13/bits/predefined_ops.h:
-
-/usr/include/c++/13/iosfwd:
-
-/usr/include/c++/13/cwchar:
-
-/usr/include/asm-generic/errno-base.h:
-
 /usr/include/x86_64-linux-gnu/bits/math-vector.h:
 
 /usr/include/c++/13/bits/hash_bytes.h:
@@ -475,6 +462,14 @@ CMakeFiles/OLAS.dir/main.cpp.o: /home/davidx/Personal_Projects/Ray-Tracer/main.c
 /usr/include/features-time64.h:
 
 /usr/include/c++/13/string_view:
+
+/usr/include/c++/13/cwctype:
+
+/usr/include/c++/13/bits/predefined_ops.h:
+
+/usr/include/c++/13/iosfwd:
+
+/usr/include/c++/13/cwchar:
 
 /usr/include/alloca.h:
 
@@ -498,17 +493,19 @@ CMakeFiles/OLAS.dir/main.cpp.o: /home/davidx/Personal_Projects/Ray-Tracer/main.c
 
 /usr/include/c++/13/pstl/glue_memory_defs.h:
 
-/usr/include/c++/13/bits/locale_facets.tcc:
-
-/usr/include/c++/13/bits/requires_hosted.h:
-
-/usr/include/c++/13/bits/string_view.tcc:
-
 /home/davidx/Personal_Projects/Ray-Tracer/hittable_list.h:
 
 /usr/include/c++/13/backward/binders.h:
 
 /usr/include/c++/13/bits/stringfwd.h:
+
+/usr/include/c++/13/debug/debug.h:
+
+/usr/include/c++/13/stdexcept:
+
+/usr/include/asm-generic/errno-base.h:
+
+/home/davidx/Personal_Projects/Ray-Tracer/material.h:
 
 /usr/include/c++/13/backward/auto_ptr.h:
 
@@ -555,6 +552,12 @@ CMakeFiles/OLAS.dir/main.cpp.o: /home/davidx/Personal_Projects/Ray-Tracer/main.c
 /usr/include/x86_64-linux-gnu/c++/13/bits/c++locale.h:
 
 /usr/include/c++/13/bits/ptr_traits.h:
+
+/usr/include/c++/13/bits/locale_facets.tcc:
+
+/usr/include/c++/13/bits/requires_hosted.h:
+
+/usr/include/c++/13/bits/string_view.tcc:
 
 /usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
 
@@ -634,9 +637,9 @@ CMakeFiles/OLAS.dir/main.cpp.o: /home/davidx/Personal_Projects/Ray-Tracer/main.c
 
 /usr/include/x86_64-linux-gnu/bits/long-double.h:
 
-/usr/include/c++/13/bits/new_allocator.h:
-
 /usr/include/c++/13/bits/atomic_base.h:
+
+/usr/include/c++/13/bits/new_allocator.h:
 
 /usr/include/c++/13/bits/uses_allocator_args.h:
 
